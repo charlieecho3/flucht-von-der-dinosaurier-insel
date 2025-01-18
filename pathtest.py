@@ -5,7 +5,7 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 try:
-    test_img = pygame.image.load("konrad_insel/bg_entities/player_3.png").convert_alpha()
+    test_img = pygame.image.load("bg_entities/player_3.png").convert_alpha()
 except pygame.error as e:
     print("Failed to load image:", e)
     sys.exit()
